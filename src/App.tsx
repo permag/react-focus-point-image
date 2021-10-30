@@ -1,5 +1,5 @@
 import FocusPointImage from './lib';
-// import FocusPointImage from "react-focus-point-image";
+import './index.css';
 import styled from 'styled-components';
 
 const FlexWrapper = styled.div`
@@ -25,7 +25,7 @@ const component = (
 function App() {
   return (
     <>
-      <h2>react-focus-point-image</h2>
+      <h2>react-focus-point-image demo</h2>
       <p>
         Focus is set on the eye of the parrot. Resize the browser window in
         order to see how the image size changes and the focus at the eye is always
@@ -50,8 +50,8 @@ function App() {
         </Item>
 
         <Item>
-          <h3>w: 60px / h: 50px</h3>
-          <div style={{ width: 60, height: 50 }}>{component}</div>
+          <h3>w: 250px / h: 150px</h3>
+          <div style={{ width: 250, height: 150 }}>{component}</div>
         </Item>
       </FlexWrapper>
     </>
