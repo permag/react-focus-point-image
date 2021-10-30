@@ -2,7 +2,7 @@
   "name": "react-focus-point-image",
   "description": "Responsive React image with focus point",
   "homepage": "https://permag.github.io/react-focus-point-image",
-  "version": "0.1.5",
+  "version": "0.1.7",
   "private": false,
   "author": {
     "name": "permag"
@@ -22,6 +22,12 @@
     "dist",
     "README.md"
   ],
+  "dependencies": {
+    "@types/react": "^17.0.33",
+    "@types/styled-components": "^5.1.15",
+    "react": "^17.0.2",
+    "styled-components": "^5.3.3"
+  },
   "peerDependencies": {
     "@types/react": "^17.0.33",
     "@types/react-dom": "^17.0.10",
