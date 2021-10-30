@@ -1,8 +1,16 @@
 {
   "name": "react-focus-point-image",
   "description": "Responsive React image with focus point",
+  "homepage": "https://permag.github.io/react-focus-point-image",
   "version": "0.1.5",
   "private": false,
+  "author": {
+    "name": "permag"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/permag/react-focus-point-image.git"
+  },
   "keywords": [
     "react",
     "components",
@@ -23,6 +31,11 @@
     "styled-components": "^5.3.3"
   },
   "devDependencies": {
+    "@testing-library/jest-dom": "^5.11.4",
+    "@testing-library/react": "^11.1.0",
+    "@testing-library/user-event": "^12.1.10",
+    "@types/jest": "^27.0.2",
+    "@types/node": "^16.11.6",
     "@types/react": "^17.0.33",
     "@types/react-dom": "^17.0.10",
     "@types/styled-components": "^5.1.15",
@@ -32,14 +45,12 @@
     "styled-components": "^5.3.3",
     "typescript": "^4.4.4",
     "web-vitals": "^1.0.1",
-    "@testing-library/jest-dom": "^5.11.4",
-    "@testing-library/react": "^11.1.0",
-    "@testing-library/user-event": "^12.1.10",
-    "@types/jest": "^27.0.2",
-    "@types/node": "^16.11.6"
+    "gh-pages": "^3.2.3"
   },
   "scripts": {
     "start": "react-scripts start",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"

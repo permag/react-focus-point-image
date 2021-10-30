@@ -1,6 +1,9 @@
 # react-focus-point-image
 Focus is set on one object in an image. When the aspect ratio of the image container changes resposivly, the focused part of the image will always be visible.
 
+## Demo
+See working [Demo here](https://permag.github.io/react-focus-point-image)
+
 ## Example
 ```
 <FocusPointImage
