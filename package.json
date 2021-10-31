@@ -1,8 +1,8 @@
 {
   "name": "react-focus-point-image",
   "description": "Responsive React image with focus point",
-  "homepage": ".",
-  "version": "0.1.9",
+  "homepage": "https://permag.github.io/react-focus-point-image/",
+  "version": "0.1.15",
   "private": false,
   "author": {
     "name": "permag"
