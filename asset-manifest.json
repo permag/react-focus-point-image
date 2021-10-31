@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/react-focus-point-image/static/css/main.937f3032.chunk.css",
-    "main.js": "/react-focus-point-image/static/js/main.f62b2cc2.chunk.js",
-    "main.js.map": "/react-focus-point-image/static/js/main.f62b2cc2.chunk.js.map",
+    "main.js": "/react-focus-point-image/static/js/main.0abac9a0.chunk.js",
+    "main.js.map": "/react-focus-point-image/static/js/main.0abac9a0.chunk.js.map",
     "runtime-main.js": "/react-focus-point-image/static/js/runtime-main.cb0ac508.js",
     "runtime-main.js.map": "/react-focus-point-image/static/js/runtime-main.cb0ac508.js.map",
     "static/js/2.fc816267.chunk.js": "/react-focus-point-image/static/js/2.fc816267.chunk.js",
@@ -15,6 +15,6 @@
     "static/js/runtime-main.cb0ac508.js",
     "static/js/2.fc816267.chunk.js",
     "static/css/main.937f3032.chunk.css",
-    "static/js/main.f62b2cc2.chunk.js"
+    "static/js/main.0abac9a0.chunk.js"
   ]
 }
